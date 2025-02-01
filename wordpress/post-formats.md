@@ -116,7 +116,7 @@ Although you can style and design your formats to be displayed any way you see f
 
 For example, the aside, link, and status formats will typically be displayed without title or author information. They are simple, short, and minor. The aside could contain perhaps a paragraph or two, while the link would probably be only a sentence with a link to some URL in it. Both the link and aside might have a link to the single post page (using [the_permalink()](https://developer.wordpress.org/reference/functions/the_permalink/)) and would thus allow comments, but the status format very likely would not have such a link.
 
-An image post, on the other hand, would typically just contain a single image, with or without a caption/text to go along with it. An audio/video post would be the same but with audio/video added in. Any of these three could use either plugins or standard [Embeds](https://wordpress.org/documentation/article/embeds/) to display their content. Titles and authorship might not be displayed for them either, as the content could be self-explanatory.
+An image post, on the other hand, would typically just contain a single image, with or without a caption/text to go along with it. An audio/video post would be the same but with audios/videos added in. Any of these three could use either plugins or standard [Embeds](https://wordpress.org/documentation/article/embeds/) to display their content. Titles and authorship might not be displayed for them either, as the content could be self-explanatory.
 
 The quote format is especially well suited to posting a simple quote from a person with no extra information. If you were to put the quote into the post content alone, and put the quoted person's name into the title of the post, then you could style the post so as to display [the_content()](https://developer.wordpress.org/reference/functions/the_content/) by itself but restyled into a blockquote format, and use [the_title()](https://developer.wordpress.org/reference/functions/the_title/) to display the quoted person's name as the byline.
 
@@ -160,4 +160,4 @@ You must also register the `post_format` taxonomy with [register_taxonomy()](htt
 
 ## Changelog
 
-- 2023-04-25: original content from [Post Formats](https://wordpress.org/documentation/article/post-formats/).
+- 2023-04-25: original contents from [Post Formats](https://wordpress.org/documentation/article/post-formats/).
